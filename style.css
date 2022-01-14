@@ -1,0 +1,99 @@
+/* Font style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap");
+/* font style end */
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+/* fast section start */
+#top-itams {
+  margin-left: 180px;
+  margin-top: 80px;
+}
+.influencer {
+  display: flex;
+  margin-left: 180px;
+}
+.influencer-items h1 {
+  font-size: 50px;
+}
+.influencer-items {
+  width: 30%;
+  margin-top: 70px;
+}
+.another-page {
+  background-color: #e02c6d;
+  text-decoration: none;
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 50px;
+  display: block;
+  margin-top: 70px;
+  width: 220px;
+  text-align: center;
+  font-size: 33px;
+}
+.another-page img {
+  color: white;
+}
+.influencer-gear {
+  margin-left: 350px;
+  margin-top: 30px;
+}
+/* fast section end */
+/* second section start */
+#midale-items {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 45px;
+}
+.influencer-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 10px;
+  justify-items: center;
+}
+.gear {
+  background-color: RGB(255, 255, 255);
+  width: 360px;
+  height: 520px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.influencer-collection .gear img {
+  margin-top: 25px;
+  margin-left: 29px;
+}
+.fa-star.star {
+  color: #ffc014;
+}
+.gear-details {
+  margin-top: 25px;
+  margin-left: 29px;
+  width: 150px;
+}
+/* second secation end */
+/* Footer start  */
+.last-part {
+  background-color: #0a0826;
+  color: #f2f2f2;
+  text-align: center;
+  height: 200px;
+}
+.fab {
+  font-size: 30px;
+  padding: 10px;
+}
+.fa-facebook {
+  color: #0676e8;
+}
+.fa-instagram-square {
+  color: #f77737;
+}
+.fa-twitter {
+  color: #1d9bf0;
+}
+.fa-youtube {
+  color: red;
+}

@@ -41,7 +41,17 @@ body {
   margin-left: 350px;
   margin-top: 30px;
 }
+/* Animation start */
+.influencer-gear img {
+  transition: transform 2s ease-in-out;
+}
+.influencer-gear img:hover {
+  transform: rotate(360deg);
+}
+/* Animation end */
+
 /* fast section end */
+
 /* second section start */
 #midale-items {
   text-align: center;
@@ -73,7 +83,38 @@ body {
   margin-left: 29px;
   width: 150px;
 }
+#see-detail {
+  color: #e02c6d;
+  font-size: 30px;
+  margin-left: 201px;
+}
+#see-detail img {
+  margin-left: 1px;
+}
 /* second secation end */
+/* third section start */
+.influencer-office {
+  display: flex;
+}
+.apartments {
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.apartments img {
+  border-radius: 20px;
+}
+.office-detail {
+  width: 1000px;
+  margin-top: 150px;
+  margin-right: 240px;
+  margin-left: 140px;
+}
+.office-detail h1 {
+  font-size: 50px;
+}
+.office-detail p {
+  font-size: 20px;
+}
 /* Footer start  */
 .last-part {
   background-color: #0a0826;
